@@ -2,8 +2,7 @@
 
 export default function Home(){
     return(
-        <section className = "home-section">  
-            {/* <img src = "../../public/images/IMG_20231206_193341.jpg" alt = "bg" className = "bg-img" /> */}
+        <section className = "home-section" id = "Home">  
             <div className ="home-first-container">
                 <div className ="home-second-container">
                     <div className = "home-main-container">

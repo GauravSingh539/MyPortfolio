@@ -31,9 +31,19 @@ export default function Portfolio(){
         setIsHover3(false);
     }
 
+    const[isHover4,setIsHover4] = useState(false);
+
+    const handleMouseEnter4 = ()=>{
+        setIsHover4(true);
+    }
+
+    const handleMouseLeave4 = ()=>{
+        setIsHover4(false);
+    }
+
 
     return(
-        <section className = "portfolio-section">
+        <section className = "portfolio-section" id = "Portfolio">
             <div className = "portfolio-outer-container">
                 <div className = "portfolio-heading-container">
                     <div className = "portfolio-heading">
@@ -73,6 +83,18 @@ export default function Portfolio(){
                                     <h1>Table</h1>
                                     <div className = "category">
                                         Blender
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className = "portfolio-card-container">
+                            <a href = "https://github.com/Coderbutgs/connect4" onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4}>
+                                <img src = "../../public/images/connect4.png" alt = "project" className = {isHover4?"portfolio-card-img scale":"portfolio-card-img"} />
+                                <div className = {isHover4?"card-content hovered":"card-content"} >
+                                    <h1>Connect4</h1>
+                                    <div className = "category">
+                                        JAVA
                                     </div>
                                 </div>
                             </a>

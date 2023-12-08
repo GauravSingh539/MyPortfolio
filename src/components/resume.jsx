@@ -1,6 +1,6 @@
 export default function Resume(){
     return(
-        <section className = "resume-section">
+        <section className = "resume-section" id = "Resume">
             <div className = "resume-outer-container">
                 <div className = "resume-heading-flex-container">
                     <div className = "resume-heading-main-container">

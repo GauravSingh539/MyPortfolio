@@ -2,7 +2,7 @@
 
 export default function About(){
     return(
-        <section className = "about-section">
+        <section className = "about-section" id = "About">
             <div className = "about-outer-container">
                 <div className = "about-flex-container">
                     <div className = "about-img-container">

@@ -1,4 +1,5 @@
 import {useState} from "react";
+import ScrollIntoView from "react-scroll-into-view";
 
 export default function Navbar(){
     
@@ -35,11 +36,11 @@ export default function Navbar(){
                     </div>
                     <div className="navbar-right">
                         <ul>
-                            <li><a  onClick={handleClick} target = "Home">Home</a></li>
-                            <li><a  onClick = {handleClick} target = "About">About</a></li>
-                            <li><a  onClick = {handleClick} target = "Portfolio">Portfolio</a></li>
-                            <li><a  onClick = {handleClick} target = "Resume">Resume</a></li>
-                            <li><a  onClick = {handleClick} target = "Contact">Contact</a></li>
+                            <ScrollIntoView selector = "#Home" smooth = "true"><li><a  onClick={handleClick} target = "Home">Home</a></li></ScrollIntoView>
+                            <ScrollIntoView selector = "#About" smooth = "true"><li><a  onClick = {handleClick} target = "About">About</a></li></ScrollIntoView>
+                            <ScrollIntoView selector = "#Portfolio" smooth = "true"><li><a  onClick = {handleClick} target = "Portfolio">Portfolio</a></li></ScrollIntoView>
+                            <ScrollIntoView selector="#Resume" smooth = "true"><li><a  onClick = {handleClick} target = "Resume">Resume</a></li></ScrollIntoView>
+                            <ScrollIntoView selector="#Contact" smooth = "true"><li><a  onClick = {handleClick} target = "Contact">Contact</a></li></ScrollIntoView>
                         </ul>
                     </div>
                 </div>
