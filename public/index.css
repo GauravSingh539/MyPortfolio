@@ -2,6 +2,7 @@
 body{
     margin:0;
     font-family: "Nunito Sans";
+    font-weight:500;
     /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
     line-height: 1.6;
     background: white;
@@ -200,7 +201,7 @@ body{
 
 .profile-img{
     width:100%;
-    height:100%;
+    height:auto;
 }
 
 .about-section-bio-container{
@@ -285,7 +286,7 @@ body{
 /* Portfolio*/
 
 .portfolio-section{
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .portfolio-outer-container{
@@ -389,5 +390,203 @@ body{
     transition: .4s all ease-out;
 }
 
+/* Resume */
 
+.resume-section{
+    padding:70px 0;
+}
 
+.resume-outer-container{
+    max-width:1140px;
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.resume-heading-flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 -15px;
+}
+
+.resume-heading-main-container{
+    position:relative;
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align:center;
+    margin-bottom: 3rem;
+}
+.resume-heading-main-container h1{
+    margin:0 auto;
+    font-size:3rem;
+    font-family: "Nunito Sans";
+    color:black;
+    font-weight: 500;
+}
+
+.resume-content-flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 -15px;
+}
+
+.resume-content-img-container{
+    max-width:33.33%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.resume-content-img-container img{
+    width:100%;
+    height:auto;
+}
+
+.resume-content-bio-container{
+    flex-basis: 56%;
+    max-width:58.33333333%;
+    margin-left:auto;
+    padding:0 15px;
+
+}
+
+.resume-content-bio-container h3{
+    color:black;
+    margin-bottom:1rem;
+    margin-top:0;
+    line-height:1.6;
+    font-weight: 500;
+    font-size:1.75rem;
+}
+
+.resume-bio-item-flex-container{
+    display:flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+}
+
+.resume-bio-item-main-container h4{
+    margin-bottom:0.5rem;
+    margin-top:0;
+    font-size:18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color:black;
+}
+
+.date{
+    margin-left:auto;
+}
+
+.button-container{
+    position:relative;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 30%;
+    padding: 0 20px;
+    margin-bottom: 1rem
+}
+
+.button-container a{
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    background: #96bb7c;
+    border-color: #96bb7c;
+    text-align: center;
+    vertical-align: middle;
+    border-width: 0;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.button-container:hover{
+    filter:brightness(110%);
+    transition: .15s all ease-out;
+}
+
+/* Contact  */
+
+.contact-section{
+    padding-top:70px;
+    padding-bottom:250px;
+}
+
+.contact-outer-container{
+    max-width:1140px;
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.contact-heading-flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 -15px;
+}
+
+.contact-heading-main-container{
+    position:relative;
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align:center;
+    margin-bottom: 3rem;
+}
+.contact-heading-main-container h1{
+    margin:0 auto;
+    font-size:3rem;
+    font-family: "Nunito Sans";
+    color:black;
+    font-weight: 500;
+}
+
+.contact-info-flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 -15px;
+}
+
+.contact-info-main-container{
+    padding: 0 15px;
+}
+
+.contact-info-main-container h3{
+    color:black;
+    font-weight:500;
+    font-size:1.5rem;
+}
+
+.contact-info-item{
+    color:#96bb7c;
+    font-weight:500;
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.contact-info-item img{
+    height:20px;
+    width:20px;
+    padding-right:10px;
+    color:#96bb7c
+}
+
+.contact-info-item a{
+    text-decoration: none;
+    color:#96bb7c;
+}
