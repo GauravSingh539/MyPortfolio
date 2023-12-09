@@ -7,7 +7,7 @@ export default function About(){
                 <div className = "about-flex-container">
                     <div className = "about-img-container">
                         <div className = "about-img-wrap">
-                            <img src = "/images/IMG_20231206_193341.jpg" alt = "img" className = "profile-img"/>
+                            <img src = "/images/Aboutimg.webp" alt = "img" className = "profile-img"/>
                         </div>
                     </div>
                     <div className = "about-section-bio-container">

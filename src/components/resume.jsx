@@ -9,7 +9,7 @@ export default function Resume(){
                 </div>
                 <div className = "resume-content-flex-container">
                     <div className = "resume-content-img-container">
-                        <img src = "/images/IMG_20231206_193341.jpg" alt = "profile" />
+                        <img src = "/images/resumeimg.jpg" alt = "profile" />
                     </div>
 
                     <div className = "resume-content-bio-container">
