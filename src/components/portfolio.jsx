@@ -54,7 +54,7 @@ export default function Portfolio(){
                     <div className = "portfolio-content-flex-container">
                         <div className = "portfolio-card-container">
                             <a href = "https://drive.google.com/file/d/1Rz4Uouz8ayHo_mpi7vcdsLHQcU1KtWqK/view?usp=sharing" onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
-                                <img src = "../../public/images/laptop.jpg" alt = "project" className = {isHover1?"portfolio-card-img scale":"portfolio-card-img"} />
+                                <img src = "/images/laptop.jpg" alt = "project" className = {isHover1?"portfolio-card-img scale":"portfolio-card-img"} />
                                 <div className = {isHover1?"card-content hovered":"card-content"} >
                                     <h1>Laptop</h1>
                                     <div className = "category">
@@ -66,7 +66,7 @@ export default function Portfolio(){
 
                         <div className = "portfolio-card-container">
                             <a href = "https://github.com/Coderbutgs/Medico-Nearby-Doctors-and-Hospitals" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
-                                <img src = "../../public/images/Medico.png" alt = "project" className = {isHover2?"portfolio-card-img scale":"portfolio-card-img"} />
+                                <img src = "/images/Medico.png" alt = "project" className = {isHover2?"portfolio-card-img scale":"portfolio-card-img"} />
                                 <div className = {isHover2?"card-content hovered":"card-content"} >
                                     <h1>Medico.in</h1>
                                     <div className = "category">
@@ -78,7 +78,7 @@ export default function Portfolio(){
 
                         <div className = "portfolio-card-container">
                             <a href = "https://drive.google.com/file/d/1I7Ku4LiufqTEQQx9v-eSXlkU6SxNeVB_/view?usp=sharing" onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
-                                <img src = "../../public/images/table2.jpg" alt = "project" className = {isHover3?"portfolio-card-img scale":"portfolio-card-img"} />
+                                <img src = "/images/table2.jpg" alt = "project" className = {isHover3?"portfolio-card-img scale":"portfolio-card-img"} />
                                 <div className = {isHover3?"card-content hovered":"card-content"} >
                                     <h1>Table</h1>
                                     <div className = "category">
@@ -90,7 +90,7 @@ export default function Portfolio(){
 
                         <div className = "portfolio-card-container">
                             <a href = "https://github.com/Coderbutgs/connect4" onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4}>
-                                <img src = "../../public/images/connect4.png" alt = "project" className = {isHover4?"portfolio-card-img scale":"portfolio-card-img"} />
+                                <img src = "/images/connect4.png" alt = "project" className = {isHover4?"portfolio-card-img scale":"portfolio-card-img"} />
                                 <div className = {isHover4?"card-content hovered":"card-content"} >
                                     <h1>Connect4</h1>
                                     <div className = "category">
