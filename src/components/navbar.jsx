@@ -20,9 +20,9 @@ export default function Navbar(){
         //let element = event.currentTarget.target;
         
     }
-
-
-    window.addEventListener("scroll",changeNavbarColor);
+    //if(window.innerHeight >= 900 ){
+        window.addEventListener("scroll",changeNavbarColor);
+    //}
     return(
         <div className={colorChange
             // colorChange

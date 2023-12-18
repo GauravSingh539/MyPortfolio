@@ -106,6 +106,7 @@ body{
 }
 
 
+
 .home-section{
     width:100%;
     position:relative;
@@ -578,4 +579,62 @@ body{
 .contact-info-item a{
     text-decoration: none;
     color:#96bb7c;
+}
+
+
+@media screen and (max-width:480px){
+    .home-section{
+        max-width:480px;
+        background-size: 270% 100%;
+        background-position: 50% -25px;
+    }
+
+    .home-second-container{
+        width:100%;
+    }
+
+    .home-main-container{
+        top:70%;
+        padding-left:15%;
+    }
+
+    .navbar-right{
+        visibility: hidden;
+    }
+
+    .about-flex-container{
+        flex-direction: column;
+    }
+
+    .about-section-bio-container{
+        padding-left:0;
+        width:90%;
+    }
+
+    .portfolio-content-flex-container{
+        flex-direction: column;
+    }
+
+    .portfolio-card-container{
+        max-width:100%;
+    }
+
+    .resume-content-flex-container{
+        flex-direction: column;
+    }
+
+    .resume-content-img-container{
+        margin-left:10%;
+        max-width:70%;
+    }
+
+    .resume-content-bio-container{
+        padding-top:20px;
+        margin-left: 0;
+        max-width:90%;
+    }
+
+    .button-container{
+        margin-left:20%;
+    }
 }
