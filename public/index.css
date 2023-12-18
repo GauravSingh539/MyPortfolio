@@ -581,10 +581,32 @@ body{
     color:#96bb7c;
 }
 
-
+/* responsive */
 @media screen and (max-width:480px){
+
+    .navbar-first-container{
+        padding:0 15px;
+        max-width:calc(100vw);
+        width:100%;
+    }
+
+    .navbar-second-container{
+        max-width:calc(100vw);
+        width:90%;
+        padding:0;
+        margin:0;
+    }
+
+    .navbar-right{
+        margin-left: 0;
+    }
+    .navbar-right ul{
+        grid-column-gap:0;
+    }
+
     .home-section{
-        max-width:480px;
+        padding:0 15px;
+        max-width:calc(100vw);
         background-size: 270% 100%;
         background-position: 50% -25px;
     }
