@@ -25,6 +25,11 @@ export default function Contact(){
                                 <span><img src = "/images/github_icon.svg" alt = "icon" /></span>
                                 <span><a href = "https://github.com/GauravSingh539">https://github.com/GauravSingh539</a></span>
                             </div>
+
+                            <div className = "contact-info-item">
+                                <span><img src = "/images/icons" alt = "icon" /></span>
+                                <span><a href = "https://www.instagram.com/justgaurav_93">https://www.instagram.com/justgaurav_93</a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
