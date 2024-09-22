@@ -27,7 +27,7 @@ export default function Contact(){
                             </div>
 
                             <div className = "contact-info-item">
-                                <span><img src = "/images/icons" alt = "icon" /></span>
+                                <span><img src = "/images/icons8-instagram.svg" alt = "icon" /></span>
                                 <span><a href = "https://www.instagram.com/justgaurav_93">https://www.instagram.com/justgaurav_93</a></span>
                             </div>
                         </div>
