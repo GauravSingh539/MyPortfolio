@@ -23,7 +23,7 @@ export default function Contact(){
 
                             <div className = "contact-info-item">
                                 <span><img src = "/images/github_icon.svg" alt = "icon" /></span>
-                                <span><a href = "https://github.com/Coderbutgs">https://github.com/Coderbutgs</a></span>
+                                <span><a href = "https://github.com/GauravSingh539">https://github.com/GauravSingh539</a></span>
                             </div>
                         </div>
                     </div>
