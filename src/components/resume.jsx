@@ -56,7 +56,7 @@ export default function Resume(){
                         </div>
 
                         <div className = "button-container">
-                            <a href = "https://drive.google.com/file/d/1VD44uoyecFgcmz3vWrmHIJtstn3R8_M3/view?usp=sharing">Download Resume</a>
+                            <a href = "https://drive.google.com/file/d/194wNAISkHM5hNajzh-iQu4p6h4oBWnxK/view?usp=sharing">Download Resume</a>
                         </div>
                     </div>
                 </div>
